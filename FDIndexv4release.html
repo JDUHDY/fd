@@ -3671,7 +3671,7 @@ async function _newFolder(name,) {
     chdir(null);
 }
 
-async function _zipping_request(e, source) {
+async function zipping_request(e, source) {
     let data; // 用于存储响应数据
     const baseUrl = new URL(window.location.href.replace(/#$/, ""));
     try {
